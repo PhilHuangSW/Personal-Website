@@ -8,6 +8,10 @@ body {
   padding-bottom: 50px;
 }
 
+#main-title-container-collection {
+  padding-bottom: 0px;
+}
+
 #main-title {
   font-family: 'Yellowtail', cursive;
   font-size: 6rem;
@@ -71,10 +75,12 @@ span .navbar-toggler-icon {
   background-color: #7196ad;
 }
 
-#individual-letter-banner {
+.individual-letter-banner {
   font-family: 'Yellowtail', cursive;
   font-size: 2.5rem;
   padding-left: 75px;
+  border-top: 2px solid #28353d;
+  padding-top: 50px;
 }
 
 h3 {
@@ -84,6 +90,24 @@ h3 {
 
 #bgg {
   color: #ff5700;
+}
+
+#row-banner-padding-bottoms {
+  padding-bottom: 25px;
+}
+
+.img-responsive {
+  /* padding-bottom: 25px; */
+  width: auto;
+  height: 200px;
+}
+
+#game-title {
+  font-size: 1.2rem;
+}
+
+#top {
+  padding-top: 75px;
 }
 
 @media (max-width: 960px) {
@@ -102,11 +126,6 @@ h3 {
   #main-text p span {
     font-size: 1.6rem;
   }
-}
-
-.img-responsive {
-  width: auto;
-  height: 200px;
 }
 
 @media (max-width: 764px) {
@@ -133,6 +152,4 @@ h3 {
     max-width: 90%;
     max-height: 90%;
   }
-
-
 }
