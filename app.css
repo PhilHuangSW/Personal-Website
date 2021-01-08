@@ -61,6 +61,11 @@ span .navbar-toggler-icon {
   border-radius: 50%;
 }
 
+#footer-icons {
+  padding-top: 50px;
+  text-align: center;
+}
+
 @media (max-width: 960px) {
   #main-title {
     font-size: 4rem;
@@ -72,6 +77,10 @@ span .navbar-toggler-icon {
 
   #main-text p {
     font-size: 1.4rem;
+  }
+
+  #main-text p span {
+    font-size: 1.6rem;
   }
 }
 
@@ -99,4 +108,6 @@ span .navbar-toggler-icon {
     max-width: 90%;
     max-height: 90%;
   }
+
+
 }
