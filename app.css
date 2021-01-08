@@ -1,15 +1,26 @@
 body {
   font-family: 'Roboto', sans-serif;
-  background-color: #1d3557;
+  background-color: #f5f9ff;
   padding-top: 100px;
 }
 
+#main-title-container {
+  padding-bottom: 50px;
+}
+
+#main-title {
+  font-family: 'Yellowtail', cursive;
+  font-size: 6rem;
+  font-weight: 400;
+  color: #28353d;
+}
+
 #nav {
-  background-color: #f1faee;
+  background-color: #28353d;
 }
 
 #phil {
-  color: #1d3557;
+  color: #f5f9ff;
   padding-right: 10px;
 }
 
@@ -19,7 +30,7 @@ body {
 }
 
 .nav-item:hover {
-  color: #1d3557;
+  color: #28353d;
 }
 
 span .navbar-toggler-icon {
@@ -27,9 +38,21 @@ span .navbar-toggler-icon {
 }
 
 h2 {
-  color: white;
+  color: #28353d;
 }
 
 #profile-pic {
   border-radius: 50%;
+  max-width: 70%;
+  max-height: 70%;
+}
+
+@media (max-width: 960px) {
+  #main-title {
+    font-size: 4rem;
+  }
+
+  #profile-pic-container {
+    text-align:center;
+  }
 }
