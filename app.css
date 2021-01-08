@@ -77,6 +77,15 @@ span .navbar-toggler-icon {
   padding-left: 75px;
 }
 
+h3 {
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+#bgg {
+  color: #ff5700;
+}
+
 @media (max-width: 960px) {
   #main-title {
     font-size: 4rem;
@@ -93,6 +102,11 @@ span .navbar-toggler-icon {
   #main-text p span {
     font-size: 1.6rem;
   }
+}
+
+.img-responsive {
+  width: auto;
+  height: 200px;
 }
 
 @media (max-width: 764px) {
