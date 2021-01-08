@@ -72,11 +72,11 @@ span .navbar-toggler-icon {
 }
 
 #letter-banner {
-  background-color: #7196ad;
+  background-color: #c2dcec;
 }
 
 .individual-letter-banner {
-  font-family: 'Yellowtail', cursive;
+  font-family: 'Yellowtail';
   font-size: 2.5rem;
   padding-left: 75px;
   border-top: 2px solid #28353d;
@@ -102,12 +102,21 @@ h3 {
   height: 200px;
 }
 
+.col-2 {
+  text-align: center;
+}
+
 #game-title {
   font-size: 1.2rem;
 }
 
 #top {
   padding-top: 75px;
+}
+
+.caption {
+  display: block;
+  text-align: center;
 }
 
 @media (max-width: 960px) {
