@@ -67,6 +67,16 @@ span .navbar-toggler-icon {
   text-align: center;
 }
 
+#letter-banner {
+  background-color: #7196ad;
+}
+
+#individual-letter-banner {
+  font-family: 'Yellowtail', cursive;
+  font-size: 2.5rem;
+  padding-left: 75px;
+}
+
 @media (max-width: 960px) {
   #main-title {
     font-size: 4rem;
