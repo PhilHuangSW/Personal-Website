@@ -37,14 +37,28 @@ span .navbar-toggler-icon {
   color: black;
 }
 
-h2 {
+#main-text p {
   color: #28353d;
+  font-weight: 100;
+  font-size: 1.6rem;
+  margin-bottom: 1.3rem;
+}
+
+#main-text p span {
+  font-family: 'Yellowtail', cursive;
+  font-size: 1.8rem;
+}
+
+#main-text p #zot1{
+  color: #0064A4;
+}
+
+#main-text p #zot2{
+  color: #FFD200;
 }
 
 #profile-pic {
   border-radius: 50%;
-  max-width: 70%;
-  max-height: 70%;
 }
 
 @media (max-width: 960px) {
@@ -54,5 +68,35 @@ h2 {
 
   #profile-pic-container {
     text-align:center;
+  }
+
+  #main-text p {
+    font-size: 1.4rem;
+  }
+}
+
+@media (max-width: 764px) {
+  #main-title-container {
+    padding-bottom: 25px;
+  }
+
+  #profile-pic-container {
+    padding-bottom: 25px;
+    align-self: center;
+  }
+
+  #home-row {
+    align-items: flex-start;
+  }
+}
+
+@media (max-width: 500px) {
+  #main-title {
+    display: none;
+  }
+
+  #profile-pic {
+    max-width: 90%;
+    max-height: 90%;
   }
 }
